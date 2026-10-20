@@ -73,12 +73,6 @@ stm32_executable("lit_icd_app") {
   deps = []
 
   output_name = "${stm32_board}-lit-icd-app.elf"
-  #include_dirs = [
-   # "${chip_root}/examples/platform/stm32/config_files/STM32WBA6/",
-    #"include/",
-    #"${chip_root}/src/include/",
-    #"${stm32_app_src}/Inc" 
-  #]
   defines = []
 
   sources = [
