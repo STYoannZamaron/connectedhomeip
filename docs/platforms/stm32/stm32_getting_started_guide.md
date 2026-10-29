@@ -18,7 +18,7 @@ The stm32 platform uses
 
 The stm32 platform is supported on:
 
--   [STM32WB5MM-DK](https://www.st.com/en/evaluation-tools/stm32wb5mm-dk.html)
+-   [STM32WBA65I-DK1](https://www.st.com/en/evaluation-tools/stm32wba65i-dk1.html)
 
 ## Matter Example Applications
 
@@ -49,11 +49,7 @@ subfolder.
     `--target` when build the examples.
 
 -   After building the application, `ST-LINK` tool is used to flash it to the
-    board. Before flashing the application, you will need to flash the fuse and
-    the co processor binary. The co processor binary and fuse are available
-    [here](https://github.com/stm32-hotspot/stm32wb-matter-device-over-thread/tree/main/Projects/STM32WB_Copro_Wireless_Binaries/STM32WB5x)
-    Dynamic Concurrent Mode BLE Thread for Matter (Supports Full BLE Stack 5.2
-    certified and Minimal Thread Device ready v1.3)
+    board.
 
     ```
      sudo st-flash  write chip-stm32-lighting-example.bin 0x08000000
