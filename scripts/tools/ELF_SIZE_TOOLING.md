@@ -79,8 +79,8 @@ The diff can also export a sankey data for the differences. Example run:
 #  match "chip::app::Clusters::" to Clusters color yellow
 #
 uv run --script ./scripts/tools/binary_elf_size_diff.py                                                   \
-   out/branch-builds/migrate_basic_info_to_code/stm32-stm32wb5mm-dk-light/chip-stm32-lighting-example.elf \
-   out/branch-builds/better_scripts/stm32-stm32wb5mm-dk-light/chip-stm32-lighting-example.elf             \
+   out/branch-builds/migrate_basic_info_to_code/stm32-stm32wba65i-dk1-light/chip-stm32-lighting-example.elf \
+   out/branch-builds/better_scripts/stm32-stm32wba65i-dk1-light/chip-stm32-lighting-example.elf             \
    --output sankey                                                                                        \
    --sankey-rules out/rules.txt
 ```
